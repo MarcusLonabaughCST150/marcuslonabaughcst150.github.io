@@ -3,10 +3,9 @@ body {  background-color:#304D9D;
         margin-right: auto;
         width: 80%;
 }
-header {    background-color:#0334BB;
-            background-image: url(Images/Logo.png); 
-	    background-size: 80px 80px;
-		    background-position: left;
-		    background-repeat: no-repeat;
-            height: 80px;
+header {	background-color:#0334BB;
+            	background-image: url(Images/Logo.png); 
+	    	background-size: 80px 80px;
+		background-position: left;
+		background-repeat: no-repeat;
 }
