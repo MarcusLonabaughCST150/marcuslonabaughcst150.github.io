@@ -5,6 +5,7 @@ body {  background-color:#304D9D;
 }
 header {    background-color:#0334BB;
             background-image: url(Images/Logo.png); 
+	    background-size: 80px 80px;
 		    background-position: left;
 		    background-repeat: no-repeat;
             height: 80px;
