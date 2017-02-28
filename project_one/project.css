@@ -1,6 +1,5 @@
 html {
 	background-color: #FFFFFF;
-
 }
 
 body {
@@ -13,18 +12,18 @@ h1 {
 	text-align: center;
 	border-left: 4px solid #1A1A59;
 	border-right: 4px solid #1A1A59;
-
 }
 
 header {
-	margin: 0 90px 0 90px;
-	border: 4px solid #1A1A59;
+	/* Logo */
 	background-image: url(Images/Logo.png);
 	background-size: 80px 80px;
 	background-position: left;
 	background-repeat: no-repeat;
+	background-color: #8080B3;
 	line-height: 80px;
-		background-color: #8080B3;
+	margin: 0 90px 0 90px;
+	border: 4px solid #1A1A59;
 }
 
 nav {
@@ -53,7 +52,9 @@ footer {
 	font-style: italic;
 	font-size: small;
 	text-align: center;
-	border: 4px solid #1A1A59;
+	border-left: 4px solid #1A1A59;
+	border-bottom: 4px solid #1A1A59;
+	border-right: 4px solid #1A1A59;
 	background-color: #D3D3D3;
 }
 
@@ -71,12 +72,6 @@ footer {
 
 .clearFloat {
 	clear: left;
-}
-
-.centered {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .right {
