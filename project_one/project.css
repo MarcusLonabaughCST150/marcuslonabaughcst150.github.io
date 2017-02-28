@@ -1,12 +1,20 @@
 body {  background-color:#FFFFFF;
         margin-left: auto;
         margin-right: auto;
-        width: 80%;
-}
+        width: 80%; }
+
 header {	background-color:#0334BB;
             	background-image: url(Images/Logo.png); 
 	    	background-size: 80px 80px;
 		background-position: left;
 		background-repeat: no-repeat;
-		line-height: 80px;
-}
+		line-height: 80px; }
+
+footer {	font-style: italic; 
+		font-size: small; 
+		text-align: center; }
+
+#catImg {	float: left;
+		border-radius: 25px; }
+
+.clearFloat {	clear: left; }
