@@ -75,7 +75,7 @@ footer {
 	text-align: center;
 	border: thin silver solid;
 	padding: 1em 1em 1em 1em;
-	margin: 5em 1em 5em 1em;
+	margin: 5em 1em 5em 0.25em;
 }
 
 /* Classes */
@@ -99,12 +99,12 @@ footer {
 
 .mDivL {
 	float: left;
-	width: 30%;
+	width: 35%;
 }
 
 .mDivC {
 	float: left;
-	width: 40%;
+	width: 35%;
 }
 .mDivR {
 	float: left;
