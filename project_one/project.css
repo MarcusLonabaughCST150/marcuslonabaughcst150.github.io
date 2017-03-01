@@ -2,11 +2,6 @@ html {
 	background-color: #FFFFFF;
 }
 
-body {
-	/* TO-DO: Background gradient */
-	background-color: #FFFFFF;
-}
-
 h1 {
 	margin: 0px;
 	text-align: center;
@@ -15,7 +10,7 @@ h1 {
 }
 
 header {
-	/* 1. Logo */
+	/* Page 1 1. Logo */
 	background-image: url(Images/Logo.png);
 	background-size: 80px 80px;
 	background-position: left;
@@ -75,6 +70,14 @@ footer {
 	margin: 1em 0.5em 1em 1em;
 }
 
+#successGraph {
+	float: left;
+	text-align: center;
+	border: thin silver solid;
+	padding: 1em 1em 1em 1em;
+	margin: 5em 1em 5em 1em;
+}
+
 /* Classes */
 
 .oHeader {
@@ -87,4 +90,23 @@ footer {
 
 .right {
 	float: right;
+}
+/* Page 3 2b.Border around content */
+.pBorder {
+	border: 4px solid #1A1A59;
+	margin-right: 17em;
+}
+
+.mDivL {
+	float: left;
+	width: 30%;
+}
+
+.mDivC {
+	float: left;
+	width: 40%;
+}
+.mDivR {
+	float: left;
+	width: 30%;
 }
