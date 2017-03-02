@@ -78,6 +78,7 @@ footer {
 	margin: 5em 1em 5em 0.25em;
 }
 
+
 /* Classes */
 
 .oHeader {
@@ -91,7 +92,10 @@ footer {
 .right {
 	float: right;
 }
+
+
 /* Page 3 2b.Border around content */
+
 .pBorder {
 	border: 4px solid #1A1A59;
 	margin-right: 17em;
@@ -106,6 +110,7 @@ footer {
 	float: left;
 	width: 35%;
 }
+
 .mDivR {
 	float: left;
 	width: 30%;
