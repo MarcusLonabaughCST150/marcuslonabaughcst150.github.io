@@ -1,0 +1,93 @@
+* {
+	box-sizing: border-box;
+}
+
+header, nav, main, footer {
+	display: block;
+}
+
+body {
+	background-image: url(gradientblue.jpg);
+	background-color: #6699FF;
+	color: #D5E3FF;
+}
+
+header {
+	background-image: url(bigfish.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000066;
+	color: #FFFFFF;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3em;
+	padding: 10px;
+	line-height: 150%;
+	text-shadow: 2px 2px #CCCCCC;
+}
+
+nav {
+	font-weight: bold;
+	float: left;
+	width: 150px;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav a {
+	text-decoration: none;
+}
+nav a:link {
+	color: #3262A3;
+}
+
+nav a:visited {
+	color: #6699FF;
+}
+
+nav a:hover {
+	color: #CCCCCC;
+}
+
+main {
+	margin-left: 180px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+.category {
+	font-weight: bold;
+	background-color: #FFFFFF;
+	color: #003366;
+	font-size: 1.1em;
+	text-shadow: 1px 1px 1px #667;
+}
+
+footer {
+	font-size: 0.70em;
+	font-style: italic;
+	padding: 10px;
+	margin-left: 180px;
+}
+
+#wrapper {
+	background-color: #FFFFFF;
+	color: #000066;
+	min-width: 700px;
+	max-width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+}
+
+img {
+	border-style: none;
+}
+
+footer nav {
+	text-align: left;
+}
