@@ -130,4 +130,7 @@ footer {
 		border-bottom: 1px solid #330000;
 		color: blue;
 	}
+	main {
+		font-size: 0.1em;
+	}
 }
