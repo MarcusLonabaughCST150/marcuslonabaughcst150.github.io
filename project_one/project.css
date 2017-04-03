@@ -116,6 +116,25 @@ footer {
 	width: 30%;
 }
 
+@media only screen and (max-width: 1024px){
+	nav {
+		float: left;
+		color: blue;
+	}
+	nav a {
+		display: block;
+		float: left;
+		text-align: left;
+		padding: 0.2em;
+		font-size: 1.3em;
+		border-bottom: 1px solid #330000;
+		color: blue;
+	}
+	main {
+		font-size: 0.1em;
+	}
+}
+
 @media only screen and (max-width: 768px) {
 	nav {
 		float: left;
