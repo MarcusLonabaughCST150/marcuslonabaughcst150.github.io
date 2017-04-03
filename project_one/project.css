@@ -70,10 +70,6 @@ footer {
 	margin: 1em 0.5em 1em 1em;
 }
 
-#mobile {
-	display: block;
-}
-
 #successGraph {
 	float: left;
 	text-align: center;
@@ -135,10 +131,7 @@ footer {
 		color: blue;
 	}
 	main {
-		font-size: 0.1em;
-	}
-	#mobile {
-		display: none;
+		font-size: 10em;
 	}
 }
 
@@ -152,14 +145,11 @@ footer {
 		float: left;
 		text-align: left;
 		padding: 0.2em;
-		font-size: 1.3em;
+		font-size: 10em;
 		border-bottom: 1px solid #330000;
 		color: blue;
 	}
 	main {
 		font-size: 0.1em;
-	}
-		#mobile {
-		display: none;
 	}
 }
