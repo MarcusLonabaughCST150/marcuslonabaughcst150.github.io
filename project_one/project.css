@@ -70,6 +70,10 @@ footer {
 	margin: 1em 0.5em 1em 1em;
 }
 
+#mobile {
+	display: block;
+}
+
 #successGraph {
 	float: left;
 	text-align: center;
@@ -133,6 +137,9 @@ footer {
 	main {
 		font-size: 0.1em;
 	}
+	#mobile {
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 768px) {
@@ -151,5 +158,8 @@ footer {
 	}
 	main {
 		font-size: 0.1em;
+	}
+		#mobile {
+		display: none;
 	}
 }
