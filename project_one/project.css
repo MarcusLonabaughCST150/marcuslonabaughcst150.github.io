@@ -119,14 +119,9 @@ footer {
 @media only screen and (max-width: 768px) {
 	nav a {
 		display: block;
+		text-align: left;
 		padding: 0.2em;
 		font-size: 1.3em;
-		border-bottom: 1px solid #000000;
-	}
-	nav li {
-		display: block;
-	}
-	nav ul {
-		text-align: left;
+		border-bottom: 1px solid #330000;
 	}
 }
