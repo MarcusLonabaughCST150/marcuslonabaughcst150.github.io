@@ -8,7 +8,6 @@ header, nav, main, footer {
 
 body {
 	background-image: url(gradientblue.jpg);
-
 	background-color: #6699FF;
 	color: #D5E3FF;
 }
@@ -27,6 +26,16 @@ h1 {
 	padding: 10px;
 	line-height: 150%;
 	text-shadow: 2px 2px #CCCCCC;
+}
+
+table {
+	border: 2px solid darkblue;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 0.5em;
+	border: 1px solid darkblue;
 }
 
 nav {
@@ -170,7 +179,6 @@ footer nav {
 	main {
 		padding-left: 1em;
 	}
-	
 	#category {
 		text-shadow: none;
 	}
