@@ -79,68 +79,38 @@ nav li a {
 	width: 100%;
 }
 
-nav li:hover {
-	background-color: #7D8491;
-}
-
 nav ul ul {
 	position: absolute;
-	top: 13%;
+	height: 10%;
+	width: 50%;
+	background: transparent;
 	display: none;
 }
 
 nav ul ul li {
 	display: block;
-	color: #3A405A;
-	background-color: black;
+	background-color: #3A405A;
 	text-decoration: none;
 	font-family: 'Gill Sans', Calibri, sans-serif;
 	font-size: 1em;
 	width: 100px;
 }
 
-nav li:hover ul { display: block; }
-
-.dropDownContent {
-	display: none;
-	position: absolute;
-	background-color: #3A405A;
-	padding: 16px 0 16px 32px;
-	text-decoration: none;
-	font-size: 1em;
-	width: 100%;
-	margin-left: 100%;
-}
-
-.dropDownContent li:nth-child(odd) {
-		background-color: #3A405A;
-}
-
-.dropDownContent li a {
+nav ul ul li a {
 	color: #C0C5C1;
-	background-color: #3A405A;
-	text-decoration: none;
-	font-family: 'Gill Sans', Calibri, sans-serif;
-	font-size: 1em;
-	text-align: center;
-	width: 100%;
-	display: block;
+	text-align: left;
 }
 
-.dropDownContent li:nth-child(even) {
+nav li:hover {
+	background-color: #7D8491;
+}
+
+nav ul ul li:hover {
 	background-color: #50587c;
 }
 
-.dropDownContent li:hover {
-	background-color: #3A405A;
-}
-
-.dropDown:hover .dropDownContent {
-	display: inline-block;
-}
-
-.dropDownContent li {
-	display: inline-block;
+nav li:hover ul {
+	display: block;
 }
 
 main {
