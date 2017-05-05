@@ -169,7 +169,7 @@ footer {
 }
 
 #gallery img {
-	width: 15%;
+	width: 25%;
 	height: auto;
 	display: block;
 }
@@ -183,4 +183,25 @@ footer {
 #container {
 	min-height: 100%;
 	position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+	header {
+		height: 10%;
+		margin: 0;
+		margin-left: 15%;
+		text-align: center;
+		background-color: #b0b0b0;
+		width: 85%;
+		display: inline-block;
+	}
+	footer {
+		font-size: 32px;
+		display: inline-block;
+		margin-left: 15%;
+		text-align: center;
+		font-family: 'Gill Sans', Calibri, sans-serif;
+		width: 85%;
+		background-color: #b0b0b0;
+	}
 }
