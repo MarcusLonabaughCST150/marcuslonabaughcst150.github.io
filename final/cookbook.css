@@ -22,6 +22,11 @@ header {
 	height: 15%;
 	width: 85%;
 	display: inline-block;
+
+	background-image: url(Images/Chili.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: auto 100%;
 }
 
 h1 {
@@ -88,6 +93,8 @@ nav ul ul {
 }
 
 nav ul ul li {
+	position: relative;
+	bottom: 5px;
 	display: block;
 	background-color: #3A405A;
 	text-decoration: none;
@@ -152,10 +159,7 @@ footer {
 }
 
 #gallery {
-	position: relative;
-	left: 0;
-	right: 100%;
-	display: block;
+	display: inline-block;
 	width: 100%;
 }
 
@@ -178,11 +182,6 @@ footer {
 	border: 3px solid #3A405A;
 	width: 20%;
 	height: auto;
-}
-
-#container {
-	min-height: 100%;
-	position: relative;
 }
 
 @media only screen and (max-width: 768px) {

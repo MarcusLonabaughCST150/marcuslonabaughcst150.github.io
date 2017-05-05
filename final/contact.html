@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--Marcus Lonabaugh-->
+
+<html lang="en">
+
+<head>
+    <title>The Lazy Cookbook</title>
+    <meta charset="utf-8">
+    <!--External CSS-->
+    <link href="cookbook.css" rel="stylesheet">
+    <!--Favicon-->
+    <link href="Images/bookIcon.png" rel="icon" type="image/png">
+    <style>
+        form {
+            padding-bottom: 3.325%;
+        }
+        fieldset p{
+            margin: 15px 0 0;
+        }
+        input[type=submit], input[type=reset] {
+            margin: 10px 0;
+            font-size: 20px;
+	        font-family: 'Gill Sans', Calibri, sans-serif;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>Breakfast
+                <ul>
+                    <li><a href="Breakfast/omelette.html">"Fridge" Omelette</a></li>
+                    <li><a href="Breakfast/burrito.html">Breakfast Burrito</a></li>
+                </ul>
+            </li>
+            <li>Lunch
+                <ul>
+                    <li><a href="Lunch/rachel.html">Corned Beef Rachel</a></li>
+                    <li><a href="Lunch/coleslaw.html">Cole Slaw</a></li>
+                    <li><a href="Lunch/quesadilla.html">Quesadilla</a></li>
+                </ul>
+            </li>
+            <li>Dinner
+                <ul>
+                    <li><a href="Dinner/chili.html">Chili</a></li>
+                    <li><a href="Dinner/cornedbeef.html">Corned Beef</a></li>
+                    <li><a href="Dinner/pork.html">Parmesan Encrusted Pork</a></li>
+                </ul>
+            </li>
+            </div>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <!--Page Title-->
+    <header>
+        <h1>The Lazy Cookbook</h1>
+    </header>
+
+    <main>
+
+        <div class="divMain">
+
+            <h3>Questions or comments?</h3>
+            <p class="centered">
+                Let us know in the section below!
+            </p>
+
+            <!--Contact Form-->
+
+            <form style="width: 50%; margin: auto auto;">
+                <fieldset>
+                    <legend>Contact Us:</legend>
+                    <p>* Full Name:</p>
+                    <input type="text" name="name" placeholder="First Last" required>
+
+                    <p>* E-Mail Address:</p>
+                    <input type="email" name="email" placeholder="Name@domain.com" required>
+
+                    <p>Gender:</p>
+                    <input type="radio" name="gender" value="female">Female<br>
+                    <input type="radio" name="gender" value="male">Male<br>
+                    <input type="radio" name="gender" value="other">Other<br>
+
+                    <p>Favorite Meal of the Day:</p>
+                    <select name="meal">
+                        <option value="Breakfast">Breakfast</option>
+                        <option value="Lunch">Lunch</option>
+                        <option value="Dinner">Dinner</option>
+                        <option value="Other">Other</option>
+                    </select>
+
+                    <p>*Comments:</p>
+                    <textarea name="comments" rows="10" cols="50" required></textarea>
+
+                    <p>* indicates a required field</p>
+
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </fieldset>
+            </form>
+        </div>
+
+    </main>
+    <!--Footer-->
+    <footer>
+        Copyright &copy; Marcus Lonabaugh 2017
+    </footer>
+</body>
+
+</html>
